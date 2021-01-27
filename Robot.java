@@ -1,7 +1,7 @@
 /**
  * @author Conor Johnson Martin 101106217
- * @date january 27th, 2021
- * @version Version 1
+ * @date January 27th, 2021
+ * @version Version 2
  */
 
 public class Robot {
@@ -79,14 +79,28 @@ public class Robot {
         return line;
     }
 
+    /**
+     * Get the friend of the current robot.
+     * @return friend of type Robot.
+     */
 
     public Robot getFriend() {
         return friend;
     }
 
+    /**
+     * Sets friend of robot.
+     * @param friend is set to the desired friend.
+     */
+
     public void makeNewFriend(Robot friend) {
         this.friend = friend;
     }
+
+    /**
+     * Get the name of the current robot.
+     * @return the name.
+     */
 
     public String getName() {
         return name;
