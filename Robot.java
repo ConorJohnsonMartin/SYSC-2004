@@ -1,7 +1,7 @@
 /**
  * @author Conor Johnson Martin 101106217
  * @date January 27th, 2021
- * @version Version 3
+ * @version Version 4
  */
 
 public class Robot {
@@ -68,7 +68,7 @@ public class Robot {
 
     public String friendSpeak() {
         if (friend == null) {
-            return "";
+            return "I have no friend :(";
         }
         return friend.speak();
     }
