@@ -1,10 +1,10 @@
-import java.util.ArrayList;
-
 /**
  * @author Conor Johnson Martin 101106217
  * @date February 3rd, 2021
  * @version Version 1
  */
+
+import java.util.ArrayList;
 
 public class Instructor {
     private String name;
