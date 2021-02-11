@@ -32,7 +32,7 @@ public class StoreManager {
      * @param t is a two dimensional array that contains integers. [[ProductID, quantity],[ProductID1, quantity]......etc].
      * @return totalPrice is transaction goes through. If transaction does not go through, return -1.0 (type double).
      */
-    public double transaction(int[][] t){
+    public double transaction(int[][] t) {
         int quantity;
         int productId;
         double totalPrice = 0.0;
