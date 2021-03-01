@@ -1,3 +1,7 @@
+/**
+ * This class was provided. This is not my own work.
+ */
+
 import java.util.ArrayList;
 
 /**
